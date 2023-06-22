@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Config_Sympozia;
+use App\Http\Controllers\DiscussionControler;
+use App\Http\Controllers\ButtonController;
+use App\Http\Controllers\PendaftaranController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +23,7 @@ Route::get('/', function () {
         return view('welcome');
     else
     */
-        return redirect()->route('home');
-    
+    return redirect()->route('home');
 });
 
 Auth::routes();
@@ -39,7 +42,26 @@ Route::get('/user/profile/edit', \App\Http\Livewire\Arsys\User\Profile\Edit\Idx:
 Route::get('/admin/user', \App\Http\Livewire\Arsys\Admin\User\Idx::class)->name('arsys.admin.user');
 Route::get('/admin/config/institution', \App\Http\Livewire\Arsys\Admin\Config\Institution\Idx::class)->name('arsys.admin.config.institution');
 
+//ATJ
+Route::get('/atj/landing-page', \App\Http\Livewire\atj\Idx::class)->name('atj.home');
+Route::get('/Reviewer/landing-page', \App\Http\Livewire\Reviewer\Idx::class)->name('Reviewer.home');
 
 
+//Supervision
+Route::get('/supervision/landing-page', \App\Http\Livewire\Supervision\Idx::class)->name('supervision.home');
+Route::get('/supervisor/landing-page', \App\Http\Livewire\Supervisor\Idx::class, PendaftaranController::class)->name('supervisor.home');
 
+//Discussion
+Route::get('supervisor/discussions', [DiscussionControler::class, 'index'])->name('discussions.index');
+Route::post('supervisor/discussions', [DiscussionControler::class, 'store'])->name('discussions.store');
+
+//Button bypass
+Route::get('/button', [ButtonController::class, 'index'])->name('button.index');
+Route::post('/button', [ButtonController::class, 'toggle'])->name('button.toggle');
+
+//Pendaftaran
+Route::get('supervisor/pendaftaran', [PendaftaranController::class, 'index'])->name('pendaftaran.index');
+Route::post('supervisor/pendaftaran', [PendaftaranController::class, 'store'])->name('pendaftaran.store');
+
+//Route::resource('supervisor/landing-page', PendaftaranController::class);
 

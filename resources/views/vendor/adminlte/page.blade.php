@@ -12,6 +12,7 @@
 @section('body_data', $layoutHelper->makeBodyData())
 
 @section('body')
+@yield('konten')
     <div class="wrapper">
         {{-- Top Navbar --}}
         @if($layoutHelper->isLayoutTopnavEnabled())
