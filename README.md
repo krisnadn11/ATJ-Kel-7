@@ -1,3 +1,25 @@
+# Tugas Akhir Aplikasi Teknologi dan Jaringan Kelompok 7
+<img src="https://github.com/krisnadn11/Tubes_ATJ/blob/main/Layout.jpg" alt="Layout" width="771" height="400"><br>
+  <figcaption> Disusun untuk memenuhi UAS Mata Kuliah Aplikasi Teknologi Jaringan</figcaption>
+
+
+## Sistem Pengawasan Dosen Pembimbing sebagai Supervisor
+
+### Anggota 1
+Nama    : Krisna Dwi Nurikhsani
+
+NIM     : 2008610
+
+### Anggota 2
+Nama    : Muhammad Rizaldi Setiawan
+
+NIM     : 2008403
+
+### Anggota 3
+Nama    : Gizfa Satria Putra Pamungkas
+
+NIM     : 2003466
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -7,29 +29,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tentang Projek Kami
+
+Proyek pembuatan web pengawasan dosen pembimbing sebagai supervisor adalah sebuah inisiatif untuk mengembangkan sebuah platform online yang memfasilitasi dan mempermudah proses pengawasan dosen pembimbing terhadap mahasiswa yang sedang melakukan tugas akhir, penelitian, atau proyek lainnya. Deskripsi proyek ini meliputi beberapa fitur dan fungsi yang akan ada dalam web pengawasan tersebut:
+
+- Web ini akan memungkinkan dosen pembimbing untuk mengelola daftar mahasiswa yang menjadi tanggung jawabnya. Dosen pembimbing dapat menambahkan, menghapus, atau memperbarui profil mahasiswa, termasuk informasi kontak, topik penelitian, dan kemajuan yang telah dicapai.
+- Web pengawasan akan memberikan dosen pembimbing akses terhadap kemajuan yang telah dicapai oleh mahasiswa. 
+- Platform ini akan menyediakan fitur komunikasi yang memungkinkan dosen pembimbing dan mahasiswa untuk berinteraksi secara langsung, baik melalui pesan teks, email, atau ruang diskusi khusus.
+- Web ini akan menyediakan fungsi untuk menjadwalkan pertemuan antara dosen pembimbing dan mahasiswa. Dosen pembimbing dapat mengatur jadwal ketersediaan mereka dan mahasiswa dapat memilih waktu yang sesuai untuk bertemu.
+- Web pengawasan akan memiliki sistem penyimpanan dokumen yang aman dan terorganisir. Dosen pembimbing dan mahasiswa dapat mengunggah dan mengunduh dokumen terkait tugas akhir, jurnal, artikel, atau file lain yang berkaitan dengan proyek yang sedang dikerjakan.
+
+
+Proyek ini akan memberikan manfaat signifikan bagi dosen pembimbing dan mahasiswa. Dosen pembimbing dapat melacak kemajuan mahasiswa dengan lebih efisien, memberikan umpan balik secara real-time, dan memudahkan koordinasi dalam menjalankan proyek. Sementara itu, mahasiswa akan mendapatkan bimbingan yang lebih baik, dapat berkomunikasi dengan dosen pembimbing dengan mudah, serta memiliki akses yang mudah ke sumber daya yang relevan.
 
 ## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Laravel memiliki yang paling luas dan menyeluruh [documentation](https://laravel.com/docs) dari semua kerangka kerja aplikasi web modern, membuatnya mudah untuk memulai dengan kerangka kerja.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Jika kita tidak ingin membaca, [Laracasts](https://laracasts.com) ini dapat membantu. Laracasts berisi lebih dari 1500 video tutorial tentang berbagai topik termasuk Laravel, PHP modern, pengujian unit, dan JavaScript. Tingkatkan keterampilan dengan menggali perpustakaan video lengkap kami.
 
 ## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Kami ingin menyampaikan terima kasih kepada sponsor berikut untuk mendanai pengembangan Laravel. Jika tertarik untuk menjadi sponsor, silakan kunjungi Laravel [Patreon page](https://patreon.com/taylorotwell).
 
 ### Premium Partners
 
@@ -50,20 +74,19 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Terima kasih telah mempertimbangkan untuk berkontribusi pada framework Laravel! Panduan kontribusi dapat ditemukan di [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Untuk memastikan bahwa komunitas Laravel menyambut semua orang, harap tinjau dan patuhi [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Jika Anda menemukan kerentanan keamanan dalam Laravel, silakan kirim email ke Taylor Otwell melalui [taylor@laravel.com](mailto:taylor@laravel.com). Semua kerentanan keamanan akan segera ditangani.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# sympoza
-# arsys2023
-# arsys2023
-# arsys2023
+Kerangka kerja Laravel adalah perangkat lunak sumber terbuka yang dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT).
+### sympoza
+### arsys2023
+
